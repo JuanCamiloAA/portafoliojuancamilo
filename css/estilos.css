@@ -1,0 +1,267 @@
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url('../imgene-\ iconos/fondo.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 2%;
+}
+
+.filaCentral {
+    overflow: -moz-hidden-unscrollable;
+}
+
+.container {
+    position: relative;
+}
+
+.contenedorMenu {
+    height: 90%;
+    box-shadow: 0px 10px 30px rgb(14, 13, 13);
+    position: fixed;
+    left: 5%;
+}
+
+.textoJustificado {
+    text-align: justify;
+}
+
+.contenedorContenido {
+    background: rgba(248, 244, 244, 0.448);
+    box-shadow: 0px 0px 10px 0px #333 inset;
+    padding: 5% 7%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.perfil img {
+    background-size: contain;
+    width: 185px;
+    height: 185px;
+    border-radius: 50%;
+    padding: 20px 20px 10px 20px;
+}
+
+.titulo {
+    width: 100%;
+    text-align: center;
+}
+
+.tituloPerfil {
+    font-family: 'Merriweather', serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.sb {
+    width: 100%;
+    text-align: center;
+}
+
+.sbPerfil {
+    font-family: 'Xanh Mono', monospace;
+    color: rgb(255, 255, 255);
+}
+
+.redes {
+    padding-top: 15px;
+}
+
+.icono {
+    font-size: 20px;
+}
+
+.enlaceIcono {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.enlaceIcono:hover {
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+}
+
+.navegacion {
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.navegacion:hover {
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(159, 159, 159);
+}
+
+.copyright {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 55%;
+}
+
+.tituloDescripcion {
+    font-family: 'Merriweather', serif;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.textoDescriocion {
+    font-weight: 500;
+    font-size: 15px;
+    padding-top: 5%;
+}
+
+.contactos {
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.tituloHabilidades {
+    font-family: 'Merriweather', serif;
+    font-weight: 800;
+    font-size: 20px;
+    padding-top: 5%;
+}
+
+.padHabilidades {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+
+/* ========================ESTUDIOS==================== */
+
+.estudios {
+    font-family: 'Merriweather', serif;
+    font-weight: 800;
+    font-size: 20px;
+    padding: 5% 2%;
+}
+
+.textoEstudios {
+    display: flex;
+    flex-direction: column;
+    padding-top: 4%;
+}
+
+.primaria {
+    font-family: 'Merriweather', serif;
+    font-weight: 800;
+    font-size: 13px;
+}
+
+
+/* ============================contacto=================== */
+
+.formularioIsquierdo {
+    background: url(../imgene-\ iconos/formulario.jpg);
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.formularioDerecho {
+    background: rgb(26, 25, 25);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.formulario {
+    color: antiquewhite;
+    padding: 10%;
+}
+
+.mapa {
+    text-align: center;
+    font-size: 20px;
+    font-family: serif;
+    color: aliceblue;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    font-size: 15px;
+}
+
+.mapaImagen {
+    opacity: 0.6;
+}
+
+@media (max-width: 600px) {
+    .contenedorMenu {
+        position: absolute;
+        width: 90%;
+    }
+    .contenedorMenu .copyright {
+        padding-top: 10%;
+    }
+    .contenedorContenido {
+        position: relative;
+        margin-top: 100%;
+    }
+    .padHabilidades {
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+    .formularioIsquierdo {
+        background: url(../imgene-\ iconos/formulario.jpg);
+        background-size: cover;
+        border-bottom-left-radius: 0%;
+        border-top-right-radius: 15px;
+    }
+    .formularioDerecho {
+        background: rgb(26, 25, 25);
+        border-bottom-left-radius: 15px;
+        border-top-right-radius: 0%;
+    }
+}
+
+@media (max-width: 300px) {
+    .contenedorMenu {
+        position: absolute;
+        width: 90%;
+    }
+    .contenedorMenu .copyright {
+        padding-top: 10%;
+    }
+    .contenedorContenido {
+        position: relative;
+        margin-top: 210%;
+    }
+}
+
+@media (max-width: 400px) {
+    .contenedorMenu {
+        position: absolute;
+        width: 90%;
+    }
+    .contenedorMenu .copyright {
+        padding-top: 10%;
+    }
+    .contenedorContenido {
+        position: relative;
+        margin-top: 190%;
+    }
+}
+
+@media (max-width: 500px) {
+    .contenedorMenu {
+        position: absolute;
+        width: 90%;
+    }
+    .contenedorMenu .copyright {
+        padding-top: 10%;
+    }
+    .contenedorContenido {
+        position: relative;
+        margin-top: 150%;
+    }
+}
